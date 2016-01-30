@@ -1,0 +1,599 @@
+body{
+	overflow-x:hidden;
+	width:100%;
+	height:auto;
+	/*margin-bottom: 50px;*/
+}
+.container-fluid,.tabs
+{
+	background: #00697B !important;
+	height: auto ;
+	min-height: 660px;
+}
+.form-control{
+		width:80% !important;
+		padding:0 0 0 0 !important;
+}
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password]{
+	height:25px!important;
+}
+button[type="submit"]{
+	    margin: 0 40% !important;
+}
+select{
+	height: 25px!important;
+}
+.leave_tbl th,
+.leave_tbl td,
+.leave_tbl1 th,
+.leave_tbl1 td,
+.leave_report th,
+.leave_report td,
+.hr_leave_tbl th,
+.hr_leave_tbl td,
+.hr_leave_tbl1 th,
+.hr_leave_tbl1 td,
+.hr_leave_tbl_all th,
+.hr_leave_tbl_all td{
+	padding:0px 18px !important;
+}
+/*th{
+color:#fff;
+}*/
+
+.leave_tbl,
+.leave_tbl1,
+.hr_leave_tbl,
+.hr_leave_tbl1,
+.leave_report
+{
+	margin:50px 0 0 0;
+}
+.leave_tbl th,.hr_leave_tbl th{
+	background:#F7F4F4;
+	margin:10% 0 0 0;
+}
+.side_menu{
+	padding: 3% 9.6% 2.3% 2%;
+	
+}
+.side_menu ul li{
+	list-style:none;
+	padding: 1% 0 1% 0px;
+    font-family: serif;
+    font-size: 17px;
+    /*border-bottom: 1px solid #CCC;*/
+}
+.ui-tabs-nav{
+	box-shadow: 0px 4px 0px 10px #E2DEDE;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th{
+	border-top:none;
+}
+li a{
+	color:#000 !important;
+}
+ul{
+    background: #F7F4F4 !important;
+}
+h2,h3,h5{
+	/*background:#F7F4F4 !important;*/
+	font-family:serif;
+	/*border: 1px solid #F6842C;*/
+}
+a{
+    color: #1C1F21 !important;
+    text-decoration: none;
+}
+h4,h5
+option,
+select{
+	font-family:serif !important;
+}
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav{
+	/*background:none !important;*/
+	border: 1px solid #F6842C;
+}
+.ui-widget-content{
+	border:none !important;
+}
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+	float: left;
+    padding: .5em 1em;
+    text-decoration: none;
+    margin: 3px 54px !important;
+}
+.ui-tabs .ui-tabs-nav li {
+    list-style: none;
+    float:none !important;
+    position: relative;
+    top: 0;
+    border-bottom-width: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default{
+	border:none !important;
+	background: #F7F4F4 !important;
+}
+.ui-tabs .ui-tabs-nav{
+    margin: 7.5% 1% 1% 0px !important;
+    padding: .2em .2em 0;
+}
+.row{
+	margin-top: 30px;
+    margin-bottom: 10px;
+}
+.ui-datepicker .ui-datepicker-header{
+	background: #DCCACA;
+}
+label{
+	font-size:15px ;
+	font-weight:100;
+	font-family:initial ;
+	color:#fff ;
+}
+th{
+	font-size:15px ;
+	font-weight:bold ;
+	font-family:initial ;
+	color:#000 ;
+}
+.ui-widget input, 
+.ui-widget select, 
+.ui-widget textarea, 
+.ui-widget button{
+	font-family: serif !important;
+}
+.footer_social{
+	padding: 28px 0px 25px 12px;
+    text-align: left;
+    background:#F6842C;
+ 	/*margin-top: 10%;*/
+    
+}
+.footer_social > p{
+    color: #fff;
+    text-align: left !important;
+}
+.footer > p{
+	text-align:center;
+	margin:25px;
+}
+.login{
+	margin: 70px 30%;
+}
+.active,.ex_employee{
+	display:none;
+}
+.inner{
+	/*background: #F3F3F3;*/
+    /*margin: 4em 32em;*/
+    padding: 2% 6% 0;
+    width:30%;
+    background:#F7F4F4;
+    border-radius: 26px;
+    position:relative;
+    -webkit-box-shadow:0 1px 7px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 30px rgba(222, 67, 67, 0.3);
+}
+.inner:after{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 50px rgba(0,0,0,0.8);
+    bottom:0px;
+    left:10%;
+    right:10%;
+    width:80%;
+    height:50%;
+    -moz-border-radius:100%;
+    border-radius:100%;
+}
+.usr,
+.pwd{
+	margin: 16px 0 0;
+	padding: 16px 0 15px;
+}
+.inner h4{
+	color:#000;
+}
+.side_menu_page{
+	list-style: none;
+	/*border: 1px solid #F6842C;*/
+	background: #E2DEDE;
+	/*margin: 48px 0 10px;*/
+	margin:48px 27px 10px 0px;
+	box-shadow: 0px 4px 0px 10px #E2DEDE;
+	border-radius: 4px;
+}
+.side_menu_page ul li{
+	list-style:none;
+	padding:5% 21% 1%;
+    font-family: serif;
+    font-size: 17px;
+}
+.side_menu_page ul li a{
+	text-decoration: none;
+}
+.hr_con{
+	margin:50px 0 0 0;
+}
+.login_header{
+	background: #F6842C;
+    width: 30%;
+    text-align: center;
+    /* padding: 0px; */
+    color: #fff;
+    border-radius: 20px;
+}
+#usr_sub{
+	margin: 0 22px 16px;
+	padding: 5px 34px;
+	font-family: serif;
+}
+input#user,input#pwd{
+    width: 100% !important;
+    height: 36px !important;
+}
+.for_pass{
+	font-size: 18px;
+    text-align: center;
+    font-family: serif;
+}
+/*.my_profile{
+	float: right;
+	background:#F6842C !important;
+	font-size: 18px;
+	font-family: serif;
+	color:#fff;
+	padding:7px;
+	text-decoration: none;
+}*/
+ul.my_profile{
+	float: right;
+    font-size: 17px;
+    background: #EAD0D0 !important;
+}
+ul.my_profile li a{
+	padding:8px 5px;
+	font-size: 18px;
+    font-family: serif;
+}
+ul{
+	padding:0;
+	list-style: none;
+}
+ul li{
+	/*display:inline-block;*/
+	position: relative;
+	line-height: 14px;
+	text-align: left;
+}
+ul li a{
+	display:block;
+	padding:8px 25px;
+	color:#fff ;
+	text-decoration:none !important;
+	background:#000;
+	color:#fff !important;
+}
+ul li a:hover{
+	color: #fff;
+}
+ul li ul.dropmenu{
+    min-width: 125px; 
+    background: #f2f2f2;
+    display:none ;
+    /*position: absolute ;*/
+    z-index: 999 ;
+    left: 0 ;
+}
+ul li:hover ul.dropmenu{
+    display: block ;	
+}
+ul li ul.dropmenu li{
+    display: block;
+}
+ul.dropmenu{
+	margin:5px;
+}
+.profile_img{
+	width:50%;
+	height:50%;
+}
+.fa{
+	margin:0 5px !important;
+}
+.user_menu{
+	background:#ae2;
+}
+.user_menu ul li{
+	list-style-type:none;
+	display:block;
+}
+.inner_title {
+ 	margin: 44px 0 25px 0;
+    font-size: 21px;
+    background: #F7F4F4;
+    padding: 3px;
+    font-family: serif;
+    border-radius: 12px;
+}
+.inner_title p{
+	margin:0 14px 0;
+}
+.alert-success {
+    color: #fff;
+    background:none !important;
+    border-color: #13B116 !important;
+}
+.alert {
+    padding: 6px !important;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin: 39px 0 0 0;
+    font-size: 16px;
+}
+.alert-danger {
+    color: #fff;
+  	background:none !important;
+    border-color: #D22440 !important;
+}
+.alert-warning {
+    background-color: #f7f4f4 !important;
+    border-color: #ba2828 !important;
+    color: #fff;
+    margin: 0 464px !important;
+    text-align: center;
+    width: 30%;
+}
+#profession_edit,
+#recruitment_ed,
+#employee_ed,
+#education_ed,
+#article_ed{
+	visibility: hidden;
+}
+#document_ed{
+	visibility: hidden;
+	margin:40px 0 0 0;
+}
+#personal_edit
+{
+	display: none;
+}
+#sub_prof_ed,#prof_can{
+	display: inline-block;
+    vertical-align: top;
+}
+.professional_ed,
+.recruitment_ed,
+.employment_ed{
+	margin:20px 0 0 0;
+}
+.view_head{
+margin: 40px 0 30px 0;
+}
+.per_ed{
+	display: inline-block;
+}
+.clear{
+	clear: both;
+}
+.edit_img{
+	float:right;
+}
+.art_ed{
+	font-size: 16px;
+	font-family: serif;
+	margin:25px 0 10px 0;
+	text-align: center;
+}
+img.delete {
+    width: 16px;
+    float: right;
+}
+img.rename{
+	float:right;
+}
+p.back_text{
+    float: right;
+    font-size: 16px;
+}
+p.back_text a {
+    color: #337AB7 !important;
+}
+#edu_ins_form{
+	display: none;
+}
+#popp{
+	display: none;
+}
+
+ table#tab_shw,
+ table.leave_tbl,
+ table.leave_tbl1,
+ table.hr_leave_tbl,
+ table.hr_leave_tbl1,
+ table.leave_report,
+ table.holiday_tbl,
+ table.hr_leave_tbl_all,
+ table.dataTable
+{	counter-reset: Serial;    /* Set the Serial counter to 0 */
+    border-collapse: separate;
+}
+  #tab_shw tr td:first-child:before,
+  .leave_tbl tr td:first-child:before,
+  .leave_tbl1 tr td:first-child:before,
+  .hr_leave_tbl tr td:first-child:before,
+  .hr_leave_tbl1 tr td:first-child:before,
+  .leave_report tr td:first-child:before,
+  .holiday_tbl tr td:first-child:before,
+  .hr_leave_tbl_all tr td:first-child:before,
+  .dataTable tr td:first-child:before
+{
+  counter-increment: Serial;      /* Increment the Serial counter */
+  content:counter(Serial); /* Display the counter */
+}
+#shw{
+	margin:20px;
+}
+#personal_shw,
+#educational_shw,
+#professional_shw,
+
+#documents_shw,
+#employment_shw{
+	margin:20px;
+	display:none;
+	background: #FFFDFD;
+    box-shadow: 1px 0px 0px 7px #E2DEDE;
+}
+#asset_shw{
+	margin:20px;
+	display:none;
+}
+p.wel_mesg{
+	float: right;
+    font-size: 18px;
+    color: #C73D06;
+}
+.btn-primary,
+.btn-success,
+.btn-warning{
+	padding: 7px 34px !important;
+}
+.btn-warning{
+	border-color: #eea236 !important;
+}
+.cmp_ast_add,#cmp_asset_list,.ast_del_cmp{
+	display: none;
+}
+.leave_sts{
+	margin: 20px;
+}
+table.emp_leave_tbl td,table.emp_report_tbl td{
+padding:0 20px 20px 0;
+}
+table.emp_leave_tbl,table.emp_report_tbl{
+	margin:35px;
+}
+.report_tbl,
+.leave_sts,
+.leave_tbl,
+.lev_rep_tbl{
+	display:none;
+}
+table.emp_leave_tbl select{	
+	width: 132px;
+	border-radius: 5px;
+}
+.hr_leave_tbl,.leave_report,.hr_report_tbl,.report_tbl{
+	display:none;
+}
+#shw_leave,#shw_emp_leave,.leave_tbl{
+	margin:30px 0 0 0;
+}
+#holi_sub{
+	margin: 43px 183px !important;
+}
+.holiday_tbl{
+	margin:4% 0 0 0;
+}
+.hr_leave_tbl{
+	box-shadow: -22px -19px 3px 29px #DCDCDC;
+   -webkit-box-shadow: -22px -19px 3px 29px #DCDCDC;
+   -moz-box-shadow: -22px -19px 3px 29px #DCDCDC;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #9DA8B1;
+    border-color: #010910;
+}
+.btn-primary:hover {
+  background-color: #165663;
+    border-color: #204d74;
+}
+table{
+	border-color:#FAEBD7;
+	background: #FFFDFD;
+    box-shadow: 1px 0px 0px 7px #E2DEDE;
+}
+.ui-helper-reset{
+ line-height: 2.3 !important;
+}
+.side_menu ul li {
+	display:inline-block ;
+}
+.form-control{
+	 border: 1px solid #F6842C;
+}
+table.emp_leave_tbl label {
+    color: #000;
+    margin: 6px 10px;
+}
+.leave_sts,.hr_leave_sts{
+	color:#fff;
+}
+h3{
+color:#D4C4C4;
+}
+.dataTables_info{
+	color:#fff;
+}
+.hr_leave_tbl_all{
+margin:50px 0 30px 0;
+}
+#emp_shw_all{
+	margin:30px 0 50px 0 ;
+}
+div#tbl_filter input,div#tbl_length select {
+    color: #000;
+}
+div#tbl_info{
+	color: #fff;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 6px 10px !important;
+}
+.user_log {
+    margin: 0 0 !important;
+    color: #000;
+}
+.active1{
+	background-color:#00697B !important;
+}
+hr{
+	margin-bottom: 0px !important;
+}
+label.del_lab {
+    color: #000;
+}
+.lve_list{
+	width:6%;
+	text-align: center;
+
+}
+.lve_list1{
+	display: none;
+}
+form#lve_form{
+	width:60%;
+}
+#lvb{
+	width:25%;
+
+}
